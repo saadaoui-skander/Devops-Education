@@ -21,6 +21,7 @@ import lombok.Setter;
 public class Stock implements Serializable {
 	private static final long serialVersionUID = 1L;
 		// Test Modif
+		// Second Test Modif
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idStock;
